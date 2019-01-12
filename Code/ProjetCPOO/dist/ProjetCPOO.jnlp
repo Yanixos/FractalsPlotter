@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProjetCPOO.jnlp">
+  <information>
+    <title>ProjetCPOO</title>
+    <vendor>mac</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProjetCPOO.jar" size="34348" download="eager" />
+    <jar href="lib/commons-cli-1.4.jar" size="53820" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ProjetCPOO" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="projetcpoo.MainClass"  name="ProjetCPOO" />
+  <update check="always"/>
+</jnlp>
