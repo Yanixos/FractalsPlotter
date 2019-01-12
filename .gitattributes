@@ -1,1 +1,2 @@
-Javadoc/* documentation
+* linguist-vendored
+*.java linguist-vendored=false
