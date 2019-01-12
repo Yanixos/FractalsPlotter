@@ -1,2 +1,2 @@
-* linguist-vendored
-*.java linguist-vendored=false
+Javadoc/* linguist-vendored
+Code/ProjetCPOO/commons-cli-1.4/* linguist-vendored
